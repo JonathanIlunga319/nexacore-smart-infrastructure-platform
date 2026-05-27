@@ -9,7 +9,8 @@ import Terminal from "./components/Terminal";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import AIChat from "./components/AIChat";
+import AdminPanel from "./components/AdminPanel";
 export default function Home() {
   return (
     <main className="relative min-h-screen bg-gradient-to-b from-black via-gray-950 to-black text-white overflow-hidden">
@@ -28,7 +29,8 @@ export default function Home() {
       <Projects />
       <Contact />
       <Footer />
-
+      <AIChat />  
+      <AdminPanel />  
     </main>
   );
 }
